@@ -11,6 +11,7 @@ BehaviourTree.BranchNode              = require(_PACKAGE..'/node_types/branch_no
 BehaviourTree.Priority                = require(_PACKAGE..'/node_types/priority')
 BehaviourTree.Random                  = require(_PACKAGE..'/node_types/random')
 BehaviourTree.Sequence                = require(_PACKAGE..'/node_types/sequence')
+BehaviourTree.ActiveSequence          = require(_PACKAGE..'/node_types/active_sequence')
 BehaviourTree.Decorator               = require(_PACKAGE..'/node_types/decorator')
 BehaviourTree.InvertDecorator         = require(_PACKAGE..'/node_types/invert_decorator')
 BehaviourTree.AlwaysFailDecorator     = require(_PACKAGE..'/node_types/always_fail_decorator')
